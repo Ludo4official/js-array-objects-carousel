@@ -76,7 +76,7 @@ leftArrow.addEventListener('click',
 
         currentSlide--;
 
-        if (currentSlide == allSlides[0] ){
+        if (currentSlide < 0){
 
             currentSlide = allSlides.length - 1;
             
